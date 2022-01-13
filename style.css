@@ -37,3 +37,20 @@
 .countdown__expired.is-active {
     display: block;
 }
+@media screen and (max-width: 530px) {
+    .countdown__timer {
+        width: 96%;
+    }
+    .countdown__item {
+        width: 24%;
+    }
+    .countdown__item:nth-of-type(n + 2) {
+        margin-left: 10px;
+    }
+    .countdown__number {
+        width: 100%;
+    }
+    .countdown__title {
+        font-size: 16px;
+    }
+}
