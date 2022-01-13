@@ -5,6 +5,13 @@
     display: flex;
     justify-content: center;
 }
+.countdown__timer {
+    display: flex;
+    justify-content: center;
+}
+.countdown__timer.is-hidden {
+    display: none;
+}
 .countdown__item {
     text-align: center;
 }
@@ -12,7 +19,8 @@
     margin-left: 10px;
 }
 .countdown__number {
-    padding: 40px;
+    padding: 40px 0;
+    width: 120px;
     font-size: 30px;
     line-height: 1;
     color: #fff;
@@ -20,4 +28,12 @@
 }
 .countdown__title {
     font-size: 24px;
+}
+.countdown__expired {
+    text-align: center;
+    font-size: 30px;
+    display: none;
+}
+.countdown__expired.is-active {
+    display: block;
 }

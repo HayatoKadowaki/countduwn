@@ -11,21 +11,26 @@
 <body>
     <div class="countdown">
         <div class="countdown__content">
-            <div class="countdown__item">
-                <p class="countdown__number" data-count="date">00</p>
-                <p class="countdown__title">Date</p>
+            <div class="countdown__timer" data-count="timer">
+                <div class="countdown__item">
+                    <p class="countdown__number" data-count="date">00</p>
+                    <p class="countdown__title">Date</p>
+                </div>
+                <div class="countdown__item">
+                    <p class="countdown__number" data-count="hours">00</p>
+                    <p class="countdown__title">Hours</p>
+                </div>
+                <div class="countdown__item">
+                    <p class="countdown__number" data-count="minutes">00</p>
+                    <p class="countdown__title">Minutes</p>
+                </div>
+                <div class="countdown__item">
+                    <p class="countdown__number" data-count="seconds">00</p>
+                    <p class="countdown__title">Seconds</p>
+                </div>
             </div>
-            <div class="countdown__item">
-                <p class="countdown__number" data-count="hours">00</p>
-                <p class="countdown__title">Hours</p>
-            </div>
-            <div class="countdown__item">
-                <p class="countdown__number" data-count="minutes">00</p>
-                <p class="countdown__title">Minutes</p>
-            </div>
-            <div class="countdown__item">
-                <p class="countdown__number" data-count="seconds">00</p>
-                <p class="countdown__title">Seconds</p>
+            <div class="countdown__expired" data-count="expired">
+                期限切れ
             </div>
         </div>
     </div>
